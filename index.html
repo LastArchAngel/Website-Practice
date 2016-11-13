@@ -1,10 +1,41 @@
+<!DOCTYPE html>
 <html>
 	<!-- This is going to be a really "easy" math website. -->
 	<head>
 		<!-- I want to add a favicon... -->
+		<link rel="icon" href="images/faviconPi.ico">
+		<link rel="stylesheet" type="text/css" href="myStyle.css">
 	</head>
 
 	<body>
+		<h1 class="mainTitle">Mathematica HW 6: Tutorial</h1>
+		<!-- Breaking up the HTML -->
+		<!-- The reason that we want to break up our page is that it will make it more user friendly and a lot easier to read.
 		
+		<div> </ This tag defines a section or a division. Ah, it allows us to group together elements that may need to be together. Either because we want to style them the same or because they make sense that way. 
+		
+		<p> </  This tag is used to wrap a lot of text. It is basically paragraphs and creates a division between each paragraph that makes the whole page a lot easier to read. 
+		
+		<span> </  This one is really interesting actually. It allows us to group together a few words. This is used to style a few words within a sentence: inside a <p> or within a <div> :) It does not create a new horizontal block. -->
+		<div>
+			<p class="intro halfPage">
+				In this intro we will slowly go through a HW assignment from ECE 3340 Numerical Methods.
+				<br />
+				Please note that this is <span class="disclaimer">JUST FOR LEARNING<span> and none of this should be used to cheat. None of this is authorized by Dr. Han Le and in an effort to keep other students from using this tutorial to cheat, I will <span class="disclaimer">NOT<span> post any questions... this will be in the style of a tutorial so that those viewing it will not guess that this is actually a homework assignment.
+			</p>
+		</div>
+		
+		<div class="problemBlock">
+			<h4 class="pTitle">Computer Simulation of Random Variables</h4>
+			<p class="explain halfPage">
+				In order to simulate noise or data we will need to first be able to create sets of data. We can create sets of uniformly distributed random variables. We create a random set of N = 10,000 data points with <img class="equation" src="images/set_data_random_10k.png" alt="10,000 Randomly generated of range 1 to 2 with uniform distribution.">
+				A set of 10,000 points is too large to see by itself and so we can use a Histogram to be able to se what exaclt is going on. <img class="plot large" src="images/set_data_histogram_10k.png" alt="Basic Histogram">
+				As we can see, the Histogram will give us the amount of recurrences for a given interval of the values.
+			</p>
+			<p class="explain halfPage">
+				We can test out our new approach by testing it out on another type of distribution: the normal distrubution.
+				<img class="plot large" src="images/set_data_normDist_hist_10k" alt="yeah">
+			</p>
+		</div>
 	</body>
 </html>
