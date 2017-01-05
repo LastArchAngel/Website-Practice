@@ -1,0 +1,53 @@
+<!-- I am going to continue with Javascript some more :)  I will eventually need to move on to some more CSS and learn to make my websites look a little more professional. -->
+<DOCTYPE html>
+<html>
+    <head>
+        <h2>Continue with Javascript</h2>
+    </head>
+    
+    <body>
+        <p>
+            <em>The Script tag</em>
+        </p>
+        <p>
+            The script tag allows us to enter Javascript. Within the script tag we can use either functions much like any other language or we can have events.
+            
+            <br/>
+            Ah, we write our function inside the script tag but I am having a little trouble with the rest...
+        </p>
+        
+        <script>
+            function theDate() {
+                document.getElementsById('timeXdd').innerHTML= "Date()";
+                <!-- This doesn't look like ' C++ where functions are almost literally like functions just being replaced with blocks of code. -->
+            }
+        </script>
+        <button type="button" onclick="theDate()">Clicky</button>
+        This button doesn't really work like I want it to :/
+        <p id="timeXdd"></p>
+        
+        <p>
+            <em class="largeT">Location of script tags</em>
+        
+            <br/><br/>
+            Hmm, the location of our scripts DOES matter. It is better to place the scripts at the bottom of the body because these script tag compilation(they are being compiled) slows down the display portion of the website. Ooh, we can also place them in seperate files and import them :x  How does this affect the load speed of the website?
+            
+            <br/><br/>
+            If we use the script tag and use an external .js file(it can hold our function) then it will just behave as if the javascript code was written there.
+            
+            <img src="images/scriptExternJS.png"> Remember that img tag doesn't have a closing bracket /img.
+            
+            <br/><br/>
+            Some of the advantages of using external Javascript files is that it makes our code clearner, easier to read, and it improves load times.
+            
+        </p>
+        
+        <p>
+            Let's move on: <a href="practice2.html">Next Page</a>
+            <br/>
+            <a href="practice0.html">Prev Page</a>
+        </p>
+
+    </body>
+</html>
+</DOCTYPE>

@@ -7,3 +7,7 @@ Really basic stuff... Just basically go through the HW and figure all of this st
 I do have time.
 
 First work on distrubutions... ONLY work on the HW and try not to stray unless I really don't know what I am doing and I really need to practice. Kind of like the Reap and Sow functions... I may just basically "copy" his code and work from there. But, I am really trying to figure all of this out :x
+
+Dec 2016, Keep doing this actaully :)  I actaully have the time to do this now :)  AND I think this is ALL really interesting :)  Download all of his notes today :x
+
+Learn everything that I didn't learn :x

@@ -1,0 +1,89 @@
+<!-- This is just going to be a really simple practice page :)  -->
+
+<!-- Don't forget... header or head? 
+
+ Ah, that's right. <head> is the tag that we always use at the top... what is it used for? :x
+ <header> is a new tag for HMTL5 AND it is similar... it is used to hold the "heading" items and it is supposed to be used in place of a <div class="">        -->
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <h2 class="title">Practice Here</h2>
+    </head>
+    <body>
+        <p>
+            First we will practice some Javascript.
+            Nothing really tough right now. In fact I will
+            do some really basic stuff.
+        </p>
+        <p>
+            <button type="button" onclick="document.getElementById('hide').innerHTML = 'I tried but didn\'t succeed :)'">Hide</button>
+            <button type="button" onclick="document.getElementById('hide').innerHTML = 'It works now :)  Just be really careful with quotations. The innerHTML = part MUST have single quotations. And, the entire onclick MUST have double quotations :x  This can be fairly confusing... look at how we can get around this. I know that we can use \ to show \'. I am not sure about double quotes... '">It Works</button>
+            We can keep changing the same element :D
+            
+            <br/><br/>
+            <!-- This button will be used to reset the hide id to what it was originally at :) -->
+            <button type="button" onclick="">Reset</button>
+            Right now this button does nothing.
+        </p>
+        
+        <br/>
+        <p id="hide">
+            Push the button to change from Google to DuckDuckGo link.
+            
+            <br/>
+            We can also hide elements :)
+            
+            <br/><br/>
+            <button type="button" onclick="document.getElementById('changeLink').innerHTML = '<a href=http://www.duckduckgo.com>DuckDuckGo</a>'">I'm Feeling Quacky</button>
+            <button type="button" onclick="getElementById('changeLink').style.display='none'">I'm not feeling it :x</button>
+            
+            <br/><br/>
+            <a href="http://www.google.com" id="changeLink">Google</a>
+            
+            <br/><br/>
+            Hmm, so this didn't really work haha. I am still unsure of how to use getElementById(). Keep trying though :)  Just follow the tutorial for a little while longer but keep trying stuff like this :)
+            
+            <br/><br/>
+            So they DO work. I just <em class="special">REALLY</em> need to be careful with the quotations and single quotes... keep trying this out and keep practicing :)
+        </p>
+        <p>
+            We can also change the CSS of the document OR of an id... well, changing the HTML so we can change the CSS of the whole document by changing the head I think.
+            
+            <br/><br/>
+            <!-- Dark theme -->
+            <button type="button" onclick="getElementById('changeCSS').style.backgroundColor='black', getElementById('changeCSS').style.color='darkGray'">Dark Theme</button>
+            <!-- Red theme -->
+            <button type="button" onclick="getElementById('changeCSS').style.backgroundColor='red', getElementById('changeCSS').style.color='pink'">Red Theme</button>
+            <!-- Blue theme -->
+            <button type="button" onclick="getElementById('changeCSS').style.backgroundColor='Blue', getElementById('changeCSS').style.color='lightBlue'">Blue Theme</button>
+            <!-- Snow theme -->
+            <button type="button" onclick="getElementById('changeCSS').style.backgroundColor='lightBlue', getElementById('changeCSS').style.color='white'">Snow Theme</button>
+            <button type="button" onclick="getElementById('changeCSS').style.backgroundColor='white', getElementById('changeCSS').style.color='black'">White/Reset</button>
+            
+            <br/>
+            Ah, careful cause if we change one part like text color but don't change it in another then we keep that styling... and it can lead to weird effects...
+        <p/>
+        <p id="changeCSS" >
+            This is just some really basic editing... Notice something really interesting. Normally in CSS we would use font-style or background-color, use a hyphen for two letters. This is different here in Javascript. What we need to do is use upperCamel notation :)
+            
+            <br/><br/>
+            It looks like "all" of Javascript uses upperCamel notation.
+            
+            <br/><br/>
+            CSS: font-style
+            <br/>
+            Javascript= fontStyle
+        </p>
+        <p>
+            This is really interesting :)  YES!! We can change multiple CSS "styles" by just using commas :D  Just don't forget that the onclick="" is what is actually doing the work and so we need to keep all of our code within the quotation marks.
+        </p>
+        
+        <p>
+            Move on
+            <button >Next Page</button> <a href="practice1.html">NextPage</a>
+            
+            <br/>
+            The link button is a little tougher than what I was expecting so for now just use a regular link.
+        </p>
+    </body>
+</hmtl>
